@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   margin: 0 100px;
+  min-height: 90vh;
 }
 .header {
   font-size: 7em;
