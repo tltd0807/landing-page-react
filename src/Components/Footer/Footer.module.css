@@ -1,0 +1,38 @@
+.footer {
+  font-weight: 100;
+  color: white;
+}
+.header {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 200px;
+}
+.footer-info {
+  font-size: 40px;
+  text-align: center;
+}
+.footer-social {
+  display: grid;
+  font-size: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  width: 70%;
+  margin: 40px auto 100px;
+}
+.footer--end {
+  background-color: white;
+  height: 7vh;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+  font-weight: 500;
+}
+.footer--moreInfo {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+}
