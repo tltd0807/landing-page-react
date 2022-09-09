@@ -10,3 +10,20 @@
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
 }
+.separate {
+  color: white;
+  /* transform: rotate(90deg); */
+  font-size: 2rem;
+  height: 50px;
+  width: 100vw;
+  text-align: center;
+  transform: scale(15, 3);
+}
+
+@media (max-width: 800px) {
+  .project-container {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 1fr;
+  }
+}

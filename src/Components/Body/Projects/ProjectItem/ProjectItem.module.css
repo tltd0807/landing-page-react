@@ -7,6 +7,7 @@
 .item-img {
   width: 100%;
   height: 100%;
+  z-index: 1;
 }
 .item-container--overflow:hover {
   transform: translateY(-300px);
@@ -15,4 +16,15 @@
 .item-container--overflow {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 800px) {
+  .item-container {
+    width: 100vw;
+    height: 100vw;
+    position: relative;
+  }
+  .item-container--overflow:hover {
+    transform: none;
+  }
 }

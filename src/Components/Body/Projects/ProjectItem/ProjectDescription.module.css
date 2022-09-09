@@ -23,3 +23,20 @@
 .arrow {
   font-size: 2rem;
 }
+@media (max-width: 800px) {
+  .description-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 8px;
+  }
+  .description-title {
+    margin-bottom: 0;
+  }
+  .description-content {
+    width: 100%;
+  }
+}
