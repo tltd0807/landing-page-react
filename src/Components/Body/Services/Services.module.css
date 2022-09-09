@@ -13,3 +13,9 @@
   justify-items: center;
   row-gap: 50px;
 }
+@media (max-width: 800px) {
+  .service-container {
+    width: 80vw;
+    grid-template-columns: 1fr;
+  }
+}

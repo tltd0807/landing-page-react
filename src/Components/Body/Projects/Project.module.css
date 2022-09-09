@@ -12,12 +12,12 @@
 }
 .separate {
   color: white;
-  /* transform: rotate(90deg); */
   font-size: 2rem;
   height: 50px;
   width: 100vw;
   text-align: center;
   transform: scale(15, 3);
+  display: none;
 }
 
 @media (max-width: 800px) {
@@ -25,5 +25,8 @@
     display: grid;
     overflow: hidden;
     grid-template-columns: 1fr;
+  }
+  .separate {
+    display: block;
   }
 }
