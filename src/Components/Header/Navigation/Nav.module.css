@@ -17,3 +17,29 @@
 .nav-item {
   margin: 0 40px;
 }
+.menu {
+  position: relative;
+  display: none;
+}
+.menu-icon {
+  transform: rotate(90deg);
+  cursor: pointer;
+  margin-right: 10px;
+}
+.menu-list {
+  position: absolute;
+  right: 10px;
+  text-align: right;
+}
+.menu-item {
+  margin-bottom: 10px;
+}
+@media (max-width: 800px) {
+  .nav-list {
+    display: none;
+  }
+  .menu {
+    position: relative;
+    display: block;
+  }
+}
