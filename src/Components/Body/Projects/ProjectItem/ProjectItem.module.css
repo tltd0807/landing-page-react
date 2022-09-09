@@ -9,7 +9,7 @@
   height: 100%;
 }
 .item-container--overflow:hover {
-  transform: translateY(-200px);
+  transform: translateY(-300px);
   transition: transform 1s ease;
 }
 .item-container--overflow {

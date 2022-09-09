@@ -1,0 +1,32 @@
+.serviceItem-container {
+  background-color: white;
+  width: 20vw;
+  /* height: 20vw; */
+  padding: 30px 30px 0 30px;
+  position: relative;
+}
+.serviceItem-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.serviceItem-nav {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.arrow {
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+.serviceItem-price {
+  background-color: #00cf2e;
+  box-sizing: border-box;
+  color: white;
+  padding: 10px 0 10px 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

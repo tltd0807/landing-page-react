@@ -12,7 +12,7 @@ const Project = () => {
   const array = [img1, img2, img3, img4, img5, img6];
   return (
     <div>
-      <div className={classes.header}>Work</div>
+      <h2 className={classes.header}>Work</h2>
       <div className={classes["project-container"]}>
         <ProjectItem src={img1} />
         <ProjectItem src={img2} />
