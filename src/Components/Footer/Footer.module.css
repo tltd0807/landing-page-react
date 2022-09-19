@@ -36,3 +36,31 @@
   width: 25%;
   justify-content: space-between;
 }
+@media (max-width: 800px) {
+  .footer-social {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-size: 20px;
+  }
+  .footer-info {
+    font-size: 20px;
+  }
+  .footer--end {
+    flex-direction: column-reverse;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+  }
+  .footer--moreInfo {
+    flex-direction: column;
+    width: 40vw;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .footer--company {
+    font-weight: 700;
+  }
+}
+.red {
+  color: red;
+}

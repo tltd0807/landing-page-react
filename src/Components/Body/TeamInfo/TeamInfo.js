@@ -66,6 +66,13 @@ const TeamInfo = () => {
               </div>
             </div>
           )}
+          {/* Mobile Only */}
+          <div className={classes["member-des--mobile"]}>
+            <div className={classes["member-name--mobile"]}>Jhon Doe</div>
+            <div className={classes["member-position--mobile"]}>
+              Digital Marketing Manager
+            </div>
+          </div>
         </div>
         <div
           className={classes.member}
@@ -81,6 +88,13 @@ const TeamInfo = () => {
               </div>
             </div>
           )}
+          {/* Mobile Only */}
+          <div className={classes["member-des--mobile"]}>
+            <div className={classes["member-name--mobile"]}>Jhon Doe</div>
+            <div className={classes["member-position--mobile"]}>
+              Digital Marketing Manager
+            </div>
+          </div>
         </div>
         <div
           className={classes.member}
@@ -96,6 +110,13 @@ const TeamInfo = () => {
               </div>
             </div>
           )}
+          {/* Mobile Only */}
+          <div className={classes["member-des--mobile"]}>
+            <div className={classes["member-name--mobile"]}>Jhon Doe</div>
+            <div className={classes["member-position--mobile"]}>
+              Digital Marketing Manager
+            </div>
+          </div>
         </div>
         <div
           className={classes.member}
@@ -111,6 +132,13 @@ const TeamInfo = () => {
               </div>
             </div>
           )}
+          {/* Mobile Only */}
+          <div className={classes["member-des--mobile"]}>
+            <div className={classes["member-name--mobile"]}>Jhon Doe</div>
+            <div className={classes["member-position--mobile"]}>
+              Digital Marketing Manager
+            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>
