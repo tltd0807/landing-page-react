@@ -21,6 +21,10 @@
   width: 70%;
   margin: 40px auto 100px;
 }
+.footer-social div:hover,
+.footer--moreInfo div:hover {
+  cursor: pointer;
+}
 .footer--end {
   background-color: white;
   height: 7vh;
