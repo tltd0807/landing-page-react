@@ -20,6 +20,9 @@
   margin-top: 20px;
   position: relative;
 }
+.description-nav:hover {
+  cursor: pointer;
+}
 .arrow {
   font-size: 2rem;
 }

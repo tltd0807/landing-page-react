@@ -16,6 +16,9 @@
   margin-top: 20px;
   margin-bottom: 80px;
 }
+.serviceItem-nav:hover {
+  cursor: pointer;
+}
 .arrow {
   font-weight: 100;
   font-size: 1.2rem;

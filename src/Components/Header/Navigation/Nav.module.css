@@ -17,6 +17,9 @@
 .nav-item {
   margin: 0 40px;
 }
+.nav-item:hover {
+  cursor: pointer;
+}
 .menu {
   position: relative;
   display: none;
